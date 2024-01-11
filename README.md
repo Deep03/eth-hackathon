@@ -26,7 +26,7 @@ Crypto Tracker is a web application that provides real-time cryptocurrency price
    
 Navigate to the project directory:
    ```
-   git clone https://github.com/eth-hackathon/crypto-tracker.git
+   npm run dev
    ```
 
 Explore the live cryptocurrency prices and click on the provided links to visit popular cryptocurrency platforms.
