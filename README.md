@@ -1,34 +1,35 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Crypto Tracker
 
-First, run the development server:
+Crypto Tracker is a web application that provides real-time cryptocurrency prices, allowing users to track the latest information about various cryptocurrencies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Display live prices of popular cryptocurrencies.
+- Color-coded price changes for easy identification (green for increase, red for decrease).
+- Direct links to popular cryptocurrency platforms for further exploration.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- React: A JavaScript library for building user interfaces.
+- Next.js: A React framework for building server-side rendered and static web applications.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   git clone https://github.com/eth-hackathon/crypto-tracker.git
+   ```
+   
+Navigate to the project directory:
+   ```
+   git clone https://github.com/eth-hackathon/crypto-tracker.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Explore the live cryptocurrency prices and click on the provided links to visit popular cryptocurrency platforms.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License
+This project is licensed under the MIT License.
