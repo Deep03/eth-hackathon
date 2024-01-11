@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React, { memo } from "react";
 
 import { formatPrice } from "../utils";
@@ -41,7 +40,7 @@ function Crypto({ crypto }: Props) {
           <div className="mt-4">
           <h6 className="mb-1 text-2xl font-semibold tracking-tight text-gray-900">
           Get currency</h6>
-          <a className="inline-flex items-center text-blue-600 mt-6" href="https://www.coinbase.com/home" target="_blank">
+          <a className="inline-flex items-center text-blue-600 mt-6" href="https://www.coinbase.com/home" target="_blank"  rel="noreferrer">
             CoinBase
           <svg
               className="w-5 h-5 ml-2"
@@ -55,7 +54,7 @@ function Crypto({ crypto }: Props) {
           </div>
           <div className="mt-4">
           
-          <a className="inline-flex items-center text-yellow-600 mt-6" href="https://www.binance.com/en" target="_blank">
+          <a className="inline-flex items-center text-yellow-600 mt-6" href="https://www.binance.com/en" target="_blank" rel="noreferrer">
           Binance
           <svg
               className="w-5 h-5 ml-2"
